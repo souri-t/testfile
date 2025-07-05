@@ -9,3 +9,7 @@ jobs:
       - run: echo "hello world!!"
       - run: echo "hello world2!!"
       - run: echo "hello world3!!"
+  anothor_action:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "act1!!"
